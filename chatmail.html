@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CMBeta</title>
+        <script>
+            function displayData(event) {
+                event.preventDefault();
+                const username = document.getElementById('username').value;
+                const message = document.getElementById('message').value;
+                const usernameElement = document.createElement('strong');
+                usernameElement.textContent = username;
+
+                const messageElement = document.createElement('p');
+                messageElement.textContent = message;
+                const outputContainer = document.createElement('div');
+                outputContainer.appendChild(usernameElement);
+                outputContainer.appendChild(document.createElement('br'));
+                outputContainer.appendChild(messageElement);
+                document.getElementById('output-area').appendChild(outputContainer);
+            }
+        </script>
+    </head>
+    <body>
+        <h1>ChatMail</h1>
+        <b>The world-wide inbox</b>
+        <form onsubmit="displayData(event)">
+            <label>Username:</label>
+            <input type="text" id="username">
+            <label>Message:</label>
+            <input type="text" id="message">
+            <input type="submit" value="Submit">
+        </form>
+        <div id="output-area"></div>
+    </body>
+    <footer>
+        <p>More updates to come! Stay tuned!</p>
+    </footer>
+</html>
