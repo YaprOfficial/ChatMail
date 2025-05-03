@@ -1,2 +1,0 @@
-ChatMail is the world's inbox. I, Bill Matthew Joseph (the site's creator), have always sort-of hated algorithms, even though people usually seem to like them. So, I made some sites here and there since December of 2024 that included human interaction, but did NOT include an algothrimic interface. I wanted it to be so that you type a message, send it, and boom! It's there forever. Everyone can see it.
-Well, that's the basis of CM. I hope you like it, because I certainly liked making it.
